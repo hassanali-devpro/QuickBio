@@ -6,7 +6,7 @@ const Head = () => {
       <section className='py-5 px-[10%] 2xl:px-[8%] text-white'>
         <div className='flex w-full justify-between items-center'>
           <div className='logo flex flex-col'>
-            <img src="/images/logo.png" className="w-40" alt="Logo" />
+            <img src="/images/logow.png" className="w-40" alt="Logo" />
           </div>
 
           <div className=' space-x-3 md:flex hidden'>

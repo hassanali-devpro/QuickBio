@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { blog } from "../../dummydata";
+import { Link } from 'react-router-dom';
 
 const Hblog = ({ isShow }) => {
   const [showAll, setShowAll] = useState(false);  // State to manage showing all or fewer items
@@ -24,7 +25,7 @@ const Hblog = ({ isShow }) => {
               <div className='mb-4'>
                 <img src={val.cover} alt='' className='w-full h-auto' />
               </div>
-              <div className='text'>
+              <div className='text mb-5'>
                 <div className='flex justify-between mb-2'>
                   <span className='flex items-center'>
                     <i className="fa fa-check-circle mr-2 text-[#71B543]"></i>
@@ -34,6 +35,7 @@ const Hblog = ({ isShow }) => {
                 <h1 className='text-xl font-semibold'>{val.title}</h1>
                 <p className='text-base leading-7'>{val.desc}</p>
               </div>
+              <Link to="/contact" className="bg-[#71B543] text-white py-2 px-3 rounded-lg hover:bg-[#71B543] transition duration-300">Get Quotation</Link>
             </div>
           ))}
         </div>

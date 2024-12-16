@@ -83,7 +83,7 @@ const CombinedHeroHeader = ({ bgColor, heroText }) => {
         <section className="px-4 lg:px-12 2xl:pt-[10%] md:pt-[5%] sm:pt-[20%] pt-[50%] text-white">
           <div className="row lg:w-[50%] md:w-[50%] sm:w-[70%] mx-[5%]">
             <div id="heading" className="text-start py-5">
-              <h3 className="font-bold tracking-widest text-[#71B543] uppercase text-xs sm:text-sm md:text-base lg:text-lg">
+              <h3 className="font-bold tracking-widest text-[#71B543 text-white uppercase text-xs sm:text-sm md:text-base lg:text-lg">
                 WELCOME TO QuickBio
               </h3>
               <TypeAnimation

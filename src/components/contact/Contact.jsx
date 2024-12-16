@@ -43,7 +43,7 @@ const ContactForm = () => {
       <ScrollTrigger onEnter={() => setIsEnter(true)} onExit={() => setIsEnter(false)} className="w-full flex justify-center items-center min-h-screen">
         <form
           onSubmit={handleSubmit}
-          className={`${isEnter ? 'animate-slide-up' : 'opacity-0 translate-y-10'} w-full max-w-lg mx-[5%] bg-white shadow-2xl rounded-lg p-8`}
+          className={`${isEnter ? 'animate-slide-up' : 'opacity-0 translate-y-10'} w-full max-w-lg mx-[5%] bg-white shadow-2xl rounded-lg p-8 my-10`}
         >
           <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
             Get in Touch
