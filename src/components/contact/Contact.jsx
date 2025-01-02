@@ -34,6 +34,7 @@ const ContactForm = () => {
     e.preventDefault();
     // Handle form submission
     console.log('Form data submitted:', formData);
+    alert('Thank you for reaching out! Your message has been submitted successfully.');
   };
 
   return (

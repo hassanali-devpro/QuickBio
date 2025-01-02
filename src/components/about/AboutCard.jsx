@@ -3,7 +3,7 @@ import { homeAbout } from "../../dummydata";
 const AboutCard = () => {
   return (
     <>
-      <section className="py-20">
+      <section className="p-[5%]">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="w-full lg:w-1/2">
             <img src="./images/strip.jpeg" alt="" className="w-full h-auto object-cover" />

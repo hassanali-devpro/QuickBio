@@ -38,7 +38,15 @@ const CombinedHeroHeader = ({ bgColor, heroText }) => {
                   className="text-white font-medium transition duration-500 hover:text-[#71B543] md:px-5 px-10"
                   to="/products"
                 >
-                  All Products
+                  Products
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-white font-medium transition duration-500 hover:text-[#71B543] md:px-5 px-10"
+                  to="/industries"
+                >
+                  Industries
                 </Link>
               </li>
               <li>
@@ -55,6 +63,14 @@ const CombinedHeroHeader = ({ bgColor, heroText }) => {
                   to="/contact"
                 >
                   Contact
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-white font-medium transition duration-500 hover:text-[#71B543] md:px-5 px-10"
+                  to="/Pricing"
+                >
+                  Pricing
                 </Link>
               </li>
             </ul>

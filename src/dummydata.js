@@ -340,8 +340,9 @@ export const blog = [
     date: "450 pkr",
     com: "In stock ",
     title: "Lacto Quick",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+    desc: "LactoQuick specializes in testing kits for milk and dairy product safety, ensuring quality and compliance in the dairy industry.",
     cover: "../images/blog/b1.png",
+    link: "/lacto"
   },
   {
     id: 2,
@@ -349,26 +350,28 @@ export const blog = [
     date: "500 pkr",
     com: "In stock ",
     title: "Food Quick",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+    desc: "FoodQuick offers testing kits designed for food and beverage analysis, helping to ensure safety and quality in food production.",
     cover: "../images/blog/b1.jpg",
+    link: "/food"
   },
-  {
-    id: 3,
-    type: "user",
-    date: "430 pkr",
-    com: "In stock ",
-    title: "NutriQuick",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b2.jpg",
-  },
+  // {
+  //   id: 3,
+  //   type: "user",
+  //   date: "430 pkr",
+  //   com: "In stock ",
+  //   title: "NutriQuick",
+  //   desc: "The FeedQuick brand provides innovative and rapid feed safety diagnostic solutions across various feed industries, ensuring safety and quality for consumers.",
+  //   cover: "../images/blog/b2.jpg",
+  // },
   {
     id: 4,
     type: "user",
     date: "470 pkr",
     com: "In stock ",
     title: "Vet Quick",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+    desc: "VetQuick offers rapid testing kits for bovine, sheep, poultry, and pets, ensuring animal health and safety through accurate and timely diagnostics.",
     cover: "../images/blog/b3.jpg",
+    link: "/vet"
   },
   {
     id: 5,
@@ -376,26 +379,28 @@ export const blog = [
     date: "490 pkr",
     com: "In stock ",
     title: "Micro Quick",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+    desc: "MicroQuick MicroQuick offers rapid and innovative testing kits for microbiology, providing quick solutions for testing needs.",
     cover: "../images/blog/b4.png",
+    link: "/micro"
   },
-  {
-    id: 6,
-    type: "user",
-    date: "480 pkr",
-    com: "In stock ",
-    title: "Medi Quick",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b5.png",
-  },
+  // {
+  //   id: 6,
+  //   type: "user",
+  //   date: "480 pkr",
+  //   com: "In stock ",
+  //   title: "Medi Quick",
+  //   desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  //   cover: "../images/blog/b5.png",
+  // },
   {
     id: 7,
     type: "user",
     date: "560 pkr",
     com: "In stock ",
     title: "Feed Quick",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+    desc: "The FeedQuick brand provides innovative and rapid feed safety diagnostic solutions across various feed industries, ensuring safety and quality for consumers.",
     cover: "../images/blog/b6.png",
+    link: "/feed"
   }
  
 ]
