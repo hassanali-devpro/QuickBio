@@ -33,7 +33,7 @@ const Testimonials = () => {
                         <div className=" text-gray-600 max-w-xl mx-auto">
                             <p className="uppercase font-bold text-4xl text-red-500 tracking-wider">MISSION</p>
                             <p className="text-xl my-5">
-                                Eastern Biotechnology is committed to
+                                QuickBio is committed to    
                                 advancing quick diagnostic through
                                 cutting-edge technology and
                                 uncompromising quality standards. We

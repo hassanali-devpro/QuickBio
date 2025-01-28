@@ -42,7 +42,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <Header bgColor="bg-[#226F6B]" heroText="Wanna Get Product Price?" />
+      <Header bgColor="bg-[#5A504D]" heroText="Want to Get Product Price?" />
       <div className="bg-gradient-to-r from-[#99BCC2] to-[#e6e6e6]">
         <ScrollTrigger onEnter={() => setIsEnter(true)} onExit={() => setIsEnter(false)} className="w-full flex justify-center items-center min-h-screen">
           <form

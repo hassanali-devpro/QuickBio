@@ -24,7 +24,7 @@ const About = () => {
 
   return (
     <>
-      <Header bgColor="bg-[#226F6B]" heroText="Who We Are" />
+      <Header bgColor="bg-[#9357A4]" heroText="Who We Are" />
       <WhoWeAre title={aboutUs.title} description={aboutUs.description} />
       <Vission />
       <Strategy />

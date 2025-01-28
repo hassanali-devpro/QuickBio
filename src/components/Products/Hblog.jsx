@@ -21,8 +21,8 @@ const Hblog = ({ isShow }) => {
     <section className="bg-gray-100 px-[10%] pb-[10%]">
       <div>
         <div id="heading" className="text-center py-10">
-          <h3 className="font-semibold tracking-widest text-[#1eb2a6] uppercase">Our Products</h3>
-          <h1 className="text-4xl md:text-5xl my-5 capitalize">QuickBio Popular Products</h1>
+          <h3 className="font-semibold tracking-widest text-[#1eb2a6] uppercase">Our Brands</h3>
+          <h1 className="text-4xl md:text-5xl my-5 capitalize">QuickBio Flagship Brands</h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {visibleItems.map((val, index) => (

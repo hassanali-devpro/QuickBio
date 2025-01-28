@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className="bg-gray-200">
         <div className=" px-[10%] grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3  gap-8 py-10">
           <div>
-          <img src="/favicon.png" className="w-40" alt="Logo" />
+          <img src="images/blog/quickl.png" className="w-40" alt="Logo" />
           <span className="text-[#71B543] text-sm pl-1">Your Health Partners</span>
             <p className="text-gray-500 mt-8 mb-4">
             In the world of cutting-edge science and accuracy, QuickBio stands as the trusted guide in diagnostic testing.
@@ -17,22 +17,21 @@ const Footer = () => {
 
           <div>
             <h3 className="text-lg font-medium mb-10">Explore</h3>
-            <ul>
-              <li className="mb-4">About Us</li>
-              <li className="mb-4">Contact us</li>
-              <li className="mb-4">Products</li>
-              <li className="mb-4">Industries</li>
-              <li className="mb-4">Home</li>
+            <ul className="flex flex-col">
+              <Link to="/about" className="mb-4">About Us</Link>
+              <Link to="/contact" className="mb-4">Contact us</Link>
+              <Link to="/products" className="mb-4">Products</Link>
+              <Link to="/industries" className="mb-4">Industries</Link>
+              <Link to="/" className="mb-4">Home</Link>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-medium mb-10">Quick Links</h3>
-            <ul>
-              <li className="mb-4">Industries</li>
-              <li className="mb-4">Pricing</li>
-              <li className="mb-4">Privacy</li>
-              <li className="mb-4">Distribution Network</li>
+            <h3 className="text-lg font-medium mb-10 ">Quick Links</h3>
+            <ul className="flex flex-col">
+              <Link to="/industries" className="mb-4">Industries</Link>
+              <Link to="/pricing" className="mb-4">Pricing</Link>
+              <Link to="/about" className="mb-4">Distribution Network</Link>
             </ul>
           </div>
 
@@ -57,7 +56,7 @@ const Footer = () => {
             <ul>
               <li className="flex items-center mb-12">
                 <i className="fa fa-map text-[#71B543] text-lg mr-4"></i>
-                Los Angeles, California, USA.
+                California, United States Of America
               </li>
               <li className="flex items-center mb-12">
                 <i className="fa fa-phone-alt text-[#71B543] text-lg mr-4"></i>

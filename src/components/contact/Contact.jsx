@@ -39,7 +39,7 @@ const ContactForm = () => {
 
   return (
     <>
-    <Header bgColor="bg-[#CD6104]" heroText="We Are Just a Click Away"/>
+    <Header bgColor="bg-[#D87A1D]" heroText="We Are Just a Click Away"/>
     <div className="bg-gradient-to-r from-[#71B543] to-[#e6e6e6]">
       <ScrollTrigger onEnter={() => setIsEnter(true)} onExit={() => setIsEnter(false)} className="w-full flex justify-center items-center min-h-screen">
         <form

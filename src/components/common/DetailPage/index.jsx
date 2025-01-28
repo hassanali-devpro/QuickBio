@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import ScrollTrigger from 'react-scroll-trigger';
 
 const DetailPage = ({ productDetails }) => {
@@ -16,7 +17,7 @@ const DetailPage = ({ productDetails }) => {
                             ))}
                         </ul>
                     </div>
-                    <img src={productDetails.image} alt="product image" className={`${isEnter ? 'animate-slide-left' : 'opacity-0 translate-y-10'} transition-all duration-1000 lg:size-[35%] rounded-3xl lg:mr-[5%]`} />
+                    <img src={productDetails.image} alt="product image" className={`${isEnter ? 'animate-slide-left' : 'opacity-0 translate-y-10'} transition-all duration-1000 lg:size-[45%] rounded-3xl lg:mr-[5%]`} />
                 </div>
             </ScrollTrigger>
 
@@ -42,9 +43,9 @@ const DetailPage = ({ productDetails }) => {
                 </div>
             </div>
             <div className="text-center mt-10">
-                <button className="bg-[#71B543] text-white py-2 px-6 rounded-lg hover:bg-[#71B543] transition duration-300">
+                <Link to='/pricing' className="bg-[#71B543] text-white py-2 px-6 rounded-lg hover:bg-[#71B543] transition duration-300">
                     Contact to Buy
-                </button>
+                </Link>
             </div>
         </div>
     );

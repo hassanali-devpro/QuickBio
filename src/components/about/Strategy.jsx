@@ -6,7 +6,7 @@ const Strategy = () => {
                     MANAGEMENT SYSTEM
                 </h2>
                 <p className="text-gray-600 max-w-full sm:max-w-3xl mb-4 sm:mb-6 text-sm sm:text-base">
-                    Eastern Biotechnology is dedicated to providing our valued customers with excellent quality
+                    QuickBio is dedicated to providing our valued customers with excellent quality
                     products and services. To achieve this, we have established a robust Quality Management System
                     (QMS) that serves as the foundation of our operations. Our QMS is meticulously designed to ensure
                     that all our offerings meet or surpass the expectations of our customers.
@@ -27,7 +27,7 @@ const Strategy = () => {
                     QUALITY POLICY
                 </h2>
                 <p className="text-gray-600 max-w-full sm:max-w-3xl mb-4 sm:mb-6 text-sm sm:text-base">
-                    At Eastern Scientific Corporation (Pvt.) Ltd, we are dedicated to providing excellent quality
+                    At QuickBio we are dedicated to providing excellent quality
                     products and services that meet or exceed our customers' expectations. Our top management and
                     employees are committed to upholding the highest standards of quality while complying with all
                     applicable laws, regulations, and standards. We continuously strive to improve our quality

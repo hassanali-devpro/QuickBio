@@ -5,7 +5,7 @@ import Header from "../common/header/Header";
 const index = () => {
     const productDetails = [
         {
-            title: "Product Details",
+            title: "Test Parameters",
             items: [
                 "Adulteration",
                 "Antibiotic Residues",
@@ -13,7 +13,7 @@ const index = () => {
                 "Pasteurization",
                 "Melamine LactoQuick"
             ],
-            image: "/images/blog/b4.png",
+            image: "/images/blog/micro.png",
             description: [
                 "Milk safety is critical due to concerns about antibiotic contamination, adulteration, mycotoxins, and pesticides.",
                 "LactoQuick offers rapid strip tests for the dairy industry.",
@@ -29,7 +29,7 @@ const index = () => {
 
     return (
         <div>
-            <Header bgColor="bg-[#475F1F]" heroText="Quick Products for Life" />
+            <Header bgColor="bg-[#9357A4]" heroText="Quick Products for Life" />
             <DetailPage productDetails={productDetails[0]} />
         </div>
     );

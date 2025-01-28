@@ -5,7 +5,7 @@ import Header from "../common/header/Header";
 const index = () => {
     const productDetails = [
         {
-            title: "Product Details",
+            title: "Test Parameters",
             title1: "Dairy Safety Redefined",
             items: [
                 "Adulteration",
@@ -14,7 +14,7 @@ const index = () => {
                 "Pasteurization",
                 "Melamine LactoQuick"
             ],
-            image: "/images/blog/b1.png",
+            image: "/images/blog/lacto.png",
             description: [
                 "Milk safety is critical due to concerns about antibiotic contamination, adulteration, mycotoxins, and pesticides. These issues can cause allergies and hypersensitivity in humans while hindering dairy processes such as yogurt and cheese production, potentially leading to significant financial losses for the industry.",
                 "LactoQuick offers rapid strip tests for the dairy industry, ensuring safety by detecting contaminants, veterinary drug residues, mycotoxins, adulteration, and nutritional quality. As the dairy industry faces increasing challenges, QuickBio partners with farmers and processors to meet global testing requirements. We ensure that milk and dairy products are among the safest foods by testing for contaminants, pasteurization levels, and the sanitation of processing equipment.",
@@ -31,7 +31,7 @@ const index = () => {
 
     return (
         <div>
-            <Header bgColor="bg-[#475F1F]" heroText="Quick Products for Life" />
+            <Header bgColor="bg-[#2092D0]" heroText="Quick Products for Life" />
             <DetailPage productDetails={productDetails[0]} />
         </div>
     );

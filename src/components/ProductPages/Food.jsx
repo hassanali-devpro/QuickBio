@@ -5,7 +5,7 @@ import Header from "../common/header/Header";
 const index = () => {
     const productDetails = [
         {
-            title: "Product Details",
+            title: "Test Parameters",
             title1: "Ensuring Safety from Farm to Table",
             items: [
                 "Adulteration",
@@ -14,7 +14,7 @@ const index = () => {
                 "Pasteurization",
                 "Melamine Testing"
             ],
-            image: "/images/blog/b1.jpg",
+            image: "/images/blog/food.png",
             description: [
                 "Food safety is paramount due to risks like contamination, spoilage, and allergens that can compromise the health and well-being of consumers. Ensuring the safety of food products is critical for maintaining public health and trust in the food supply chain.",
                 "FoodQuick provides state-of-the-art diagnostic solutions for rapid and accurate testing in the food industry, empowering manufacturers and suppliers to meet the highest safety standards. These solutions are designed to detect contaminants, allergens, and other risks efficiently and reliably.",
@@ -30,7 +30,7 @@ const index = () => {
 
     return (
         <div>
-            <Header bgColor="bg-[#475F1F]" heroText="Quick Products for Life" />
+            <Header bgColor="bg-[#FAA41A]" heroText="Quick Products for Life" />
             <DetailPage productDetails={productDetails[0]} />
         </div>
     );

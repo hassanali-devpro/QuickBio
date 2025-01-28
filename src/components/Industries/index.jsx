@@ -37,7 +37,7 @@ const Index = () => {
 
     return (
         <>
-            <Header bgColor="bg-[#CD6104]" heroText="Industries we serve" />
+            <Header bgColor="bg-[#F4A261]" heroText="Industries we serve" />
             {messageText.map((item, index) => (
                 <Vertical
                     key={index}

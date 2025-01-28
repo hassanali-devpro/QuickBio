@@ -5,7 +5,7 @@ import Header from "../common/header/Header"
 const products = () => {
   return (
     <>
-      <Header bgColor="bg-[#475F1F]" heroText="Quick Products for Life"/>
+      <Header bgColor="bg-[#226F6B]" heroText="Quick Products for Life"/>
       <Hblog isShow={false} />
     </>
   )

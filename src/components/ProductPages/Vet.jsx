@@ -5,14 +5,14 @@ import Header from "../common/header/Header";
 const index = () => {
     const productDetails = [
         {
-            title: "Product Details",
+            title: "Test Parameters",
             title1: "Protecting Animal Health with Expert Veterinary Care and Solutions",
             items: [
                 "Bovine",
                 "Pets",
                 "Avian",
             ],
-            image: "/images/blog/b3.jpg",
+            image: "/images/blog/vet.png",
             description: [
                 "VetQuick specializes in rapid testing kits for bovine, sheep, poultry, and pets, embodying our vision of 'Innovate with Animal Health and Well-Being.'",
                 "We provide advanced Rapid-ELISA and PCR products for quick and reliable results.",
@@ -29,7 +29,7 @@ const index = () => {
 
     return (
         <div>
-            <Header bgColor="bg-[#475F1F]" heroText="Quick Products for Life" />
+            <Header bgColor="bg-[#DE1319]" heroText="Quick Products for Life" />
             <DetailPage productDetails={productDetails[0]} />
         </div>
     );

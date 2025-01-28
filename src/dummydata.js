@@ -339,9 +339,9 @@ export const blog = [
     type: "admin",
     date: "450 pkr",
     com: "In stock ",
-    title: "Lacto Quick",
+    title: "LactoQuick",
     desc: "LactoQuick specializes in testing kits for milk and dairy product safety, ensuring quality and compliance in the dairy industry.",
-    cover: "../images/blog/b1.png",
+    cover: "../images/blog/lacto.png",
     link: "/lacto"
   },
   {
@@ -349,9 +349,9 @@ export const blog = [
     type: "admin",
     date: "500 pkr",
     com: "In stock ",
-    title: "Food Quick",
+    title: "FoodQuick",
     desc: "FoodQuick offers testing kits designed for food and beverage analysis, helping to ensure safety and quality in food production.",
-    cover: "../images/blog/b1.jpg",
+    cover: "../images/blog/food.png",
     link: "/food"
   },
   // {
@@ -368,9 +368,9 @@ export const blog = [
     type: "user",
     date: "470 pkr",
     com: "In stock ",
-    title: "Vet Quick",
+    title: "VetQuick",
     desc: "VetQuick offers rapid testing kits for bovine, sheep, poultry, and pets, ensuring animal health and safety through accurate and timely diagnostics.",
-    cover: "../images/blog/b3.jpg",
+    cover: "../images/blog/vet.png",
     link: "/vet"
   },
   {
@@ -378,9 +378,9 @@ export const blog = [
     type: "user",
     date: "490 pkr",
     com: "In stock ",
-    title: "Micro Quick",
+    title: "MicroQuick",
     desc: "MicroQuick MicroQuick offers rapid and innovative testing kits for microbiology, providing quick solutions for testing needs.",
-    cover: "../images/blog/b4.png",
+    cover: "../images/blog/micro.png",
     link: "/micro"
   },
   // {
@@ -397,9 +397,9 @@ export const blog = [
     type: "user",
     date: "560 pkr",
     com: "In stock ",
-    title: "Feed Quick",
+    title: "FeedQuick",
     desc: "The FeedQuick brand provides innovative and rapid feed safety diagnostic solutions across various feed industries, ensuring safety and quality for consumers.",
-    cover: "../images/blog/b6.png",
+    cover: "../images/blog/feed.png",
     link: "/feed"
   }
  

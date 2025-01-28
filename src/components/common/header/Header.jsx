@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import Head from "./Head";
 
-const CombinedHeroHeader = ({ bgColor, heroText }) => {
+const CombinedHeroHeader = ({ bgColor, heroText, welcome }) => {
   const [click, setClick] = useState(false);
 
   return (
@@ -100,7 +100,7 @@ const CombinedHeroHeader = ({ bgColor, heroText }) => {
           <div className="row lg:w-[50%] md:w-[50%] sm:w-[70%] mx-[5%]">
             <div id="heading" className="text-start py-5">
               <h3 className="font-bold tracking-widest text-[#71B543 text-white uppercase text-xs sm:text-sm md:text-base lg:text-lg">
-                WELCOME TO QuickBio
+                {welcome}
               </h3>
               <TypeAnimation
                 sequence={[
