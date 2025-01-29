@@ -91,7 +91,7 @@ const ContactForm = () => {
                 Phone Number
               </label>
               <PhoneInput
-                country={'us'}
+                country={'cn'}
                 value={formData.phone}
                 onChange={handlePhoneChange}
                 containerClass="w-full border rounded-md"

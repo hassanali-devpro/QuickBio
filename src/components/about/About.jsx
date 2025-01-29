@@ -11,7 +11,7 @@ import Header from "../common/header/Header"
 const About = () => {
   const aboutUs = {
     title: "Who We Are",
-    description: "QuickBio USA Inc. is a high-tech enterprise specializing in food safety and animal disease diagnostics. Since its inception, QuickBio has invested in new technologies and innovations. We offer cutting-edge rapid diagnostic test kits for the dairy, food, feed, and veterinary sectors."
+    description: "QuickBio Diagnostics Co. Ltd. is a high-tech enterprise specializing in food safety and animal disease diagnostics. Since its inception, QuickBio has invested in new technologies and innovations. We offer cutting-edge rapid diagnostic test kits for the dairy, food, feed, and veterinary sectors."
   };
   const whyUs = {
     title: true,
@@ -19,7 +19,7 @@ const About = () => {
   };
   const Qa = {
     title: "QUALITY ASSURANCE & CERTIFICATIONS",
-    description: "At QUICKBIO USA, quality is paramount. We adhere to the highest industry standards, ensuring our products meet rigorous regulatory requirements for accuracy and reliability. Our commitment to innovation drives the development of new diagnostic platforms"
+    description: "At QUICKBIO China, quality is paramount. We adhere to the highest industry standards, ensuring our products meet rigorous regulatory requirements for accuracy and reliability. Our commitment to innovation drives the development of new diagnostic platforms"
   };
 
   return (

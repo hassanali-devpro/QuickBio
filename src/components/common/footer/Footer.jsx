@@ -56,15 +56,15 @@ const Footer = () => {
             <ul>
               <li className="flex items-center mb-12">
                 <i className="fa fa-map text-[#71B543] text-lg mr-4"></i>
-                California, United States Of America
+                999 Gaoxin Hi-Tech East Rd, Xinxiang, Henan Province, China.
               </li>
               <li className="flex items-center mb-12">
                 <i className="fa fa-phone-alt text-[#71B543] text-lg mr-4"></i>
-                +1 42 111 111 116
+                +86 42 111 111 116
               </li>
               <li className="flex items-center mb-12">
                 <i className="fa fa-paper-plane text-[#71B543] text-lg mr-4"></i>
-                Info@QuickBio.com
+                Info@quickbiodiagnostics.com
               </li>
             </ul>
           </div>

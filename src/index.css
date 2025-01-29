@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Force light mode */
+:root {
+    color-scheme: light;
+  }
+  
+  /* Ensure dark mode styles don't apply */
+  html {
+    background-color: white;
+    color: black;
+  }
+  

@@ -1,6 +1,6 @@
 const WhoWeAre = ({ title, description }) => (
-  <div className="bg-[url('/images/q1.png')] bg-no-repeat bg-left bg-contain ">
-  <div className="bg-[url('/images/q4.png')] bg-no-repeat bg-right bg-contain">
+  <div className="bg-[url('/images/q1.png')] bg-no-repeat bg-left bg-contain overflow-hidden mt-10">
+  <div className="bg-[url('/images/q4.png')] bg-no-repeat bg-right bg-contain overflow-hidden">
     <div className="about py-16 px-[5%]" id="about">
       <div className="container mx-auto">
         <div className="text-center">
